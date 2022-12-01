@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484832935285",
+    "project_id": "esaip-checkin-1668880172304",
+    "storage_bucket": "esaip-checkin-1668880172304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484832935285:android:623fee46a0b599cf7ce73c",
+        "android_client_info": {
+          "package_name": "com.esaip.esaip_check_in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484832935285-0qcoj5ku09q5k09shngbmhfaou6afqc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcoJ4aIws_Vs_UmlQtSIHJICdj1q2aZ30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484832935285-0qcoj5ku09q5k09shngbmhfaou6afqc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

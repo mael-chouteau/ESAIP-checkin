@@ -1,0 +1,15 @@
+{
+  "client_id" : "189ab470-fed6-46ef-bc74-4434299b6187",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.esaip.esaip_check_in/lsSRk7JMMCMi7Rbcf93mh4HwAPE%3D",
+  "account_mode" : "SINGLE",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMultipleOrgs",
+        "tenant_id": "organizations"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esaip.esaip_check_in.Login">
+
+    <ImageView
+        android:id="@+id/login_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/this_is_the_background_for_the_login_page"
+        android:src="@drawable/login_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="234dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/login_logo"
+        android:src="@drawable/login_logo"
+        app:layout_constraintEnd_toEndOf="@+id/login_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/common_google_play_services_enable_button"
+        app:layout_constraintEnd_toEndOf="@+id/login_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_logo"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+</androidx.constraintlayout.widget.ConstraintLayout>

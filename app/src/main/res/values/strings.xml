@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ESAIP_check_in</string>
+    <string name="this_is_the_background_for_the_login_page">This is the background for the login page</string>
+    <string name="login_logo">Login logo</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="email_exemple">jdoe@esaip.org</string>
+    <string name="reset_account">reset account</string>
+    <string name="welcome">bienvenue</string>
+    <string name="logout">Déconnexion</string>
+    <string name="check_in">check In</string>
+    <string name="reload">Reload</string>
+</resources>
